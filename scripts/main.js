@@ -417,12 +417,12 @@ const topics = {
 </div>`,
 };
 
-const sidebar = document.getElementById("sidebar");
+const topicsContainer = document.getElementById("topics");
 const content = document.getElementById("content");
 
 // Function to update the active topic
 const updateActiveTopic = (activeElement) => {
-  const topics = sidebar.querySelectorAll(".topic");
+  const topics = topicsContainer.querySelectorAll(".topic");
   topics.forEach((topic) => {
     topic.classList.remove("active");
   });
@@ -439,7 +439,7 @@ Object.keys(topics).forEach((key) => {
     content.innerHTML = topics[key];
     updateActiveTopic(topicElement);
   };
-  sidebar.appendChild(topicElement);
+  topicsContainer.appendChild(topicElement);
 });
 
 function scrollToTop() {
