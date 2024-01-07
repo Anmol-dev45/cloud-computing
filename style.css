@@ -14,15 +14,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  min-width: 300px;
-  max-width: 1400px;
-  width: 100%;
-  margin-inline: auto;
-  min-height: 100vh;
-  position: relative;
-}
-
 .divider {
   width: 100%;
   height: 1px;
@@ -62,25 +53,16 @@ a {
   color: #334;
 }
 
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
+.container {
+  max-width: 1200px;
   width: 100%;
-  height: 100%;
-  padding-block: 80px;
-  padding-left: 200px;
-  z-index: 1;
-}
-
-@media (min-width: 768px) {
-  .sidebar {
-    width: 30%;
-  }
-  .main-content {
-    width: 70%;
-    margin-left: 30%;
-  }
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  padding: 1rem 0.5rem;
+  position: relative;
 }
 
 .topic {
@@ -100,10 +82,7 @@ a {
 }
 
 .main-content {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 80px 220px 40px 120px;
+  flex: 1;
   z-index: 0;
 }
 
@@ -121,4 +100,22 @@ a {
 img {
   margin: 1rem 0;
   width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+    padding: 100px 0;
+  }
+  .container > div {
+    width: 400px;
+  }
+  .sidebar {
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+  }
+  .main-content {
+    padding-right: 100px;
+  }
 }
