@@ -102,27 +102,6 @@ img {
   width: 100%;
 }
 
-.content-navigation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-#prev-button,
-#next-button {
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#prev-button:disabled,
-#next-button:disabled {
-  background-color: #cccccc;
-}
-
 @media (min-width: 1000px) {
   .container {
     flex-direction: row;

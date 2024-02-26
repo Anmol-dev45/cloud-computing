@@ -142,31 +142,27 @@ const topics = [
     <p class="body-text">
       Virtualization is the process of creating a virtual version of something, including but not limited to virtual computer hardware platforms, storage devices, and computer network resources. It allows multiple virtual machines, with heterogeneous operating systems, to run in isolation, side-by-side on the same physical machine.
     </p>
-    <img src="URL_to_virtualization_image.jpg" alt="Virtualization in Cloud Computing" class="cloud-image">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230324174647/Virtualization.png" alt="Virtualization in Cloud Computing" class="cloud-image">
     
     <h2 class="heading">Containerization</h2>
     <p class="body-text">
       Containerization involves encapsulating an application and its dependencies into a container that can run on any computing environment. This promotes both efficiency and scalability, as containers are lighter than virtual machines and ensure consistent operation across various platforms.
     </p>
-    <img src="URL_to_containerization_image.jpg" alt="Containerization" class="cloud-image">
     
     <h2 class="heading">Cloud Storage</h2>
     <p class="body-text">
       Cloud storage technology allows data to be stored on remote servers which can be accessed from the internet. This technology is scalable, meaning businesses can pay for the amount of storage they need, while also ensuring that data can be reliably backed up and retrieved.
     </p>
-    <img src="URL_to_cloud_storage_image.jpg" alt="Cloud Storage" class="cloud-image">
     
     <h2 class="heading">Serverless Computing</h2>
     <p class="body-text">
       Serverless computing is a cloud computing execution model where the cloud provider dynamically manages the allocation of machine resources. This model allows developers to build and run applications and services without thinking about servers.
     </p>
-    <img src="URL_to_serverless_computing_image.jpg" alt="Serverless Computing" class="cloud-image">
     
     <h2 class="heading">Cloud Networking</h2>
     <p class="body-text">
       Cloud networking involves delivering network services and infrastructure through the cloud. This technology supports connectivity of various cloud services, and it can provide a global reach for applications and data on a massive scale.
     </p>
-    <img src="URL_to_cloud_networking_image.jpg" alt="Cloud Networking" class="cloud-image">
     
     <!-- Additional detailed subsections can be added here, such as APIs in Cloud Computing, Multi-Cloud Strategies, Cloud Automation, etc. -->
     
@@ -185,7 +181,6 @@ const topics = [
     <p class="body-text">
       Security in the cloud is not inherently different from security in any other IT environment. However, the cloud’s unique characteristics create new challenges that need to be addressed. Cloud security is designed to maintain the confidentiality, integrity, and availability of your data and services in the cloud.
     </p>
-    <img src="" alt="Cloud Security Overview" class="cloud-image">
     
     <div class="divider"></div>
     
@@ -199,7 +194,6 @@ const topics = [
       <li><strong>Secure Data Storage:</strong> Ensuring that data stored in the cloud is protected from unauthorized access and data breaches.</li>
       <li><strong>Regular Security Audits:</strong> Conducting frequent security assessments to identify and mitigate potential vulnerabilities.</li>
     </ul>
-    <img src="URL_to_cloud_security_measures_image.jpg" alt="Key Cloud Security Measures" class="cloud-image">
     
     <div class="divider"></div>
     
@@ -212,7 +206,6 @@ const topics = [
       <li><strong>Regular Updates and Patching:</strong> Keep all systems up-to-date to protect against vulnerabilities.</li>
       <li><strong>Security Awareness:</strong> Train employees on recognizing and avoiding security threats.</li>
     </ul>
-    <img src="URL_to_cloud_security_practices_image.jpg" alt="Cloud Security Best Practices" class="cloud-image">
     
     <!-- Additional subsections can be added here, such as specific security challenges in cloud computing, case studies of cloud security, future trends in cloud security, etc. -->
     
@@ -231,31 +224,26 @@ const topics = [
     <p class="body-text">
       Cloud-based collaborative tools and productivity suites enable teams to work seamlessly across different locations. Applications like Google Workspace and Microsoft 365 provide document collaboration, video conferencing, and project management tools, fostering efficient teamwork.
     </p>
-    <img src="URL_to_collaborative_tools_image.jpg" alt="Collaborative Tools" class="cloud-image">
     
     <h2 class="heading">Customer Relationship Management (CRM)</h2>
     <p class="body-text">
       CRM systems hosted in the cloud offer businesses a centralized platform to manage customer interactions, sales, and service-related processes. Cloud-based CRMs, such as Salesforce, streamline customer communication and data management.
     </p>
-    <img src="URL_to_CRM_image.jpg" alt="Cloud CRM" class="cloud-image">
     
     <h2 class="heading">Data Analytics and Business Intelligence</h2>
     <p class="body-text">
       Cloud computing facilitates powerful data analytics and business intelligence applications. Platforms like Amazon Redshift and Google BigQuery allow organizations to process massive datasets, derive insights, and make data-driven decisions.
     </p>
-    <img src="URL_to_data_analytics_image.jpg" alt="Data Analytics in Cloud" class="cloud-image">
     
     <h2 class="heading">E-commerce and Online Retail</h2>
     <p class="body-text">
       E-commerce platforms leverage cloud computing for scalable and secure online retail operations. Cloud services enable efficient order processing, inventory management, and seamless customer experiences, as seen in platforms like Shopify and Magento.
     </p>
-    <img src="URL_to_ecommerce_image.jpg" alt="E-commerce in Cloud" class="cloud-image">
     
     <h2 class="heading">Healthcare Information Systems</h2>
     <p class="body-text">
       Cloud computing plays a crucial role in healthcare by supporting electronic health records (EHRs), telemedicine, and medical research. Cloud applications in healthcare enhance data accessibility, collaboration among healthcare professionals, and patient care.
     </p>
-    <img src="URL_to_healthcare_image.jpg" alt="Cloud in Healthcare" class="cloud-image">
     
     <!-- Additional detailed subsections can be added here, such as Cloud Gaming, Internet of Things (IoT) Applications, Cloud-Based Development Environments, etc. -->
     
@@ -274,31 +262,26 @@ const topics = [
     <p class="body-text">
       Edge computing brings computation and data storage closer to the location where it is needed, reducing latency and improving response times. This trend is especially crucial for applications requiring real-time processing, such as IoT devices and augmented reality.
     </p>
-    <img src="URL_to_edge_computing_image.jpg" alt="Edge Computing" class="cloud-image">
     
     <h2 class="heading">Serverless Architecture</h2>
     <p class="body-text">
       Serverless architecture allows developers to focus on writing code without the need to manage server infrastructure. This trend is gaining popularity for its scalability, cost-effectiveness, and ease of deployment, empowering developers to build applications more efficiently.
     </p>
-    <img src="URL_to_serverless_architecture_image.jpg" alt="Serverless Architecture" class="cloud-image">
     
     <h2 class="heading">Multi-Cloud Strategies</h2>
     <p class="body-text">
       Organizations are increasingly adopting multi-cloud strategies to distribute workloads across multiple cloud providers. This approach enhances flexibility, mitigates vendor lock-in, and ensures high availability, providing a tailored solution for diverse business needs.
     </p>
-    <img src="URL_to_multi_cloud_strategies_image.jpg" alt="Multi-Cloud Strategies" class="cloud-image">
     
     <h2 class="heading">AI and Machine Learning Integration</h2>
     <p class="body-text">
       The integration of artificial intelligence (AI) and machine learning (ML) into cloud services is transforming data analysis, automation, and decision-making processes. Cloud platforms with built-in AI/ML capabilities empower businesses to derive valuable insights from their data.
     </p>
-    <img src="URL_to_AI_ML_integration_image.jpg" alt="AI and ML Integration" class="cloud-image">
     
     <h2 class="heading">Blockchain in Cloud Computing</h2>
     <p class="body-text">
       The combination of blockchain technology and cloud computing enhances security, transparency, and trust in various applications. This trend is particularly relevant in sectors like finance, supply chain, and healthcare, where secure and traceable transactions are crucial.
     </p>
-    <img src="URL_to_blockchain_cloud_image.jpg" alt="Blockchain in Cloud Computing" class="cloud-image">
     
     <!-- Additional detailed subsections can be added here, such as Quantum Computing, Cloud-Native Development, Green Cloud Computing, etc. -->
     
@@ -317,31 +300,26 @@ const topics = [
     <p class="body-text">
       Cloud computing is not without its hurdles. Key challenges include security concerns, data privacy issues, and potential downtime. As businesses rely more on cloud services, addressing these challenges becomes imperative to ensure the robustness of cloud environments.
     </p>
-    <img src="URL_to_challenges_image.jpg" alt="Challenges in Cloud Computing" class="cloud-image">
     
     <h2 class="heading">Security and Privacy Concerns</h2>
     <p class="body-text">
       Security remains a top concern in the cloud, with potential threats like data breaches and unauthorized access. Ensuring robust security measures, encryption, and compliance with data protection regulations are critical aspects of addressing these concerns.
     </p>
-    <img src="URL_to_security_privacy_image.jpg" alt="Security and Privacy Concerns" class="cloud-image">
     
     <h2 class="heading">Data Sovereignty and Compliance</h2>
     <p class="body-text">
       Data sovereignty refers to the legal issues related to the physical location of data. Compliance with different international regulations adds complexity, and businesses must navigate these issues to ensure data is stored and processed in accordance with relevant laws.
     </p>
-    <img src="URL_to_data_sovereignty_image.jpg" alt="Data Sovereignty and Compliance" class="cloud-image">
     
     <h2 class="heading">Downtime and Service Reliability</h2>
     <p class="body-text">
       Service downtime can impact businesses' operations and result in significant losses. Ensuring high availability, redundancy, and effective disaster recovery plans are essential to mitigate the impact of service disruptions.
     </p>
-    <img src="URL_to_downtime_reliability_image.jpg" alt="Downtime and Service Reliability" class="cloud-image">
     
     <h2 class="heading">Future of Cloud Computing</h2>
     <p class="body-text">
       The future of cloud computing holds exciting possibilities. Trends like quantum computing, enhanced AI integration, and continued advancements in edge computing are expected to shape the landscape. Cloud-native development and sustainable practices will also play a vital role.
     </p>
-    <img src="URL_to_future_of_cloud_image.jpg" alt="Future of Cloud Computing" class="cloud-image">
     
     <!-- Additional detailed subsections can be added here, such as Green Cloud Computing, Quantum Computing, Cloud-Native Development, etc. -->
     
@@ -360,31 +338,26 @@ const topics = [
     <p class="body-text">
       Cloud computing in healthcare has revolutionized patient data management and telemedicine services. A case study on a healthcare provider illustrates how they utilize cloud-based systems for efficient patient data storage, analysis, and remote consultations.
     </p>
-    <img src="URL_to_healthcare_case_study_image.jpg" alt="Healthcare Cloud Computing" class="cloud-image">
     
     <h2 class="heading">Finance: Secure Cloud Solutions in Banking</h2>
     <p class="body-text">
       The finance sector, particularly banking, has embraced cloud computing for enhanced security and operational efficiency. This case study explores how a major bank implemented cloud solutions to secure data, streamline operations, and provide better customer service.
     </p>
-    <img src="URL_to_finance_case_study_image.jpg" alt="Banking and Finance Cloud Computing" class="cloud-image">
     
     <h2 class="heading">Retail: Cloud-Driven E-Commerce Transformation</h2>
     <p class="body-text">
       E-commerce platforms heavily rely on cloud computing for scalability and customer experience enhancement. A detailed case study on a leading e-commerce company showcases their use of the cloud for handling large-scale transactions, data analytics, and personalized shopping experiences.
     </p>
-    <img src="URL_to_retail_case_study_image.jpg" alt="Retail E-Commerce Cloud Computing" class="cloud-image">
     
     <h2 class="heading">Education: Cloud Services in Online Learning</h2>
     <p class="body-text">
       The shift to online education has been facilitated by cloud computing, offering scalability and accessibility. This case study focuses on an educational institution that utilizes cloud services for hosting virtual classrooms, storing educational materials, and facilitating collaborative learning.
     </p>
-    <img src="URL_to_education_case_study_image.jpg" alt="Education Cloud Computing" class="cloud-image">
     
     <h2 class="heading">Manufacturing: Leveraging Cloud for Smart Manufacturing</h2>
     <p class="body-text">
       Cloud computing is integral in the evolution of smart manufacturing. This case study demonstrates how a manufacturing company integrates cloud technology for real-time data monitoring, predictive maintenance, and supply chain optimization.
     </p>
-    <img src="URL_to_manufacturing_case_study_image.jpg" alt="Manufacturing Cloud Computing" class="cloud-image">
     
     <!-- Additional real-world examples can be included from sectors like Government Services, Entertainment, Transportation, etc. -->
     
@@ -435,6 +408,7 @@ const updateActiveTopic = (activeElement) => {
 
 const updateContent = (index) => {
   let topicElement = document.createElement("div");
+
   topicElement.textContent = topics[index].title;
   topicElement.classList.add("topic");
   topicElement.onclick = function () {
@@ -450,6 +424,5 @@ const scrollToTop = () => {
 };
 
 topics.forEach((item, _i) => {
-  console.log(_i);
   updateContent(_i);
 });
